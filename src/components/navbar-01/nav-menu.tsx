@@ -1,3 +1,5 @@
+"use client";
+
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -6,40 +8,45 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { ComponentProps } from "react";
+import { useLanguage } from "@/contexts/language-context";
 
-export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
-  <NavigationMenu {...props}>
-    <NavigationMenuList className="gap-3 space-x-0 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start data-[orientation=vertical]:justify-start">
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link href="/">Pocetna</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link href="/restaurant">Restoran</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link href="/events">Dogadjaji</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link href="/menu">Meni</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link href="/gallery">Galerija</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link href="/contact">Kontakt</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-    </NavigationMenuList>
-  </NavigationMenu>
-);
+export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
+  const { t } = useLanguage();
+
+  return (
+    <NavigationMenu {...props}>
+      <NavigationMenuList className="gap-3 space-x-0 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start data-[orientation=vertical]:justify-start">
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href="/">{t.nav.home}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href="/restaurant">{t.nav.restaurant}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href="/events">{t.nav.events}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href="/menu">{t.nav.menu}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href="/gallery">{t.nav.gallery}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href="/contact">{t.nav.contact}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+    </NavigationMenu>
+  );
+};

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Carattere, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar-01/navbar-01";
+import { Footer } from "@/components/footer";
+import { LanguageProvider } from "@/contexts/language-context";
 
 const carattere = Carattere({
   variable: "--font-carattere",
@@ -17,6 +19,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Zlatna Cvekla",
+  description: "Authentic Serbian cuisine - where tradition meets taste",
 };
 
 export default function RootLayout({
@@ -27,8 +30,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${carattere.variable} ${inter.variable} antialiased `}>
-        <Navbar />
-        {children}
+        <LanguageProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );
