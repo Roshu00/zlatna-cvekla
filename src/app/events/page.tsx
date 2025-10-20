@@ -56,10 +56,7 @@ const EventsPage = () => {
                 <h3 className="text-gold mb-2">
                   {t.events.upcoming.event1.title}
                 </h3>
-                <div className="flex items-center gap-2 mb-4 text-foreground/70">
-                  <Calendar className="w-4 h-4" />
-                  <span>{t.events.upcoming.event1.date}</span>
-                </div>
+
                 <p className="text-foreground/80">
                   {t.events.upcoming.event1.description}
                 </p>
@@ -81,10 +78,6 @@ const EventsPage = () => {
                 <h3 className="text-gold mb-2">
                   {t.events.upcoming.event2.title}
                 </h3>
-                <div className="flex items-center gap-2 mb-4 text-foreground/70">
-                  <Calendar className="w-4 h-4" />
-                  <span>{t.events.upcoming.event2.date}</span>
-                </div>
                 <p className="text-foreground/80">
                   {t.events.upcoming.event2.description}
                 </p>
@@ -106,10 +99,6 @@ const EventsPage = () => {
                 <h3 className="text-gold mb-2">
                   {t.events.upcoming.event3.title}
                 </h3>
-                <div className="flex items-center gap-2 mb-4 text-foreground/70">
-                  <Calendar className="w-4 h-4" />
-                  <span>{t.events.upcoming.event3.date}</span>
-                </div>
                 <p className="text-foreground/80">
                   {t.events.upcoming.event3.description}
                 </p>
