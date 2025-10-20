@@ -17,17 +17,18 @@ export const translations = {
       },
       welcome: {
         title: "Welcome to Zlatna Cvekla",
-        text: "Experience the authentic flavors of Serbian cuisine in a warm, inviting atmosphere. Our restaurant combines traditional recipes passed down through generations with fresh, locally-sourced ingredients to create unforgettable dining experiences.",
+        text: "Experience the perfect blend of tradition and modern flavors in the heart of Belgrade. Zlatna Cvekla brings the spirit of Serbian cuisine to a contemporary, elegant setting — a place where our grandmothers’ recipes meet modern culinary techniques. Every dish is prepared with carefully selected, local ingredients, infused with creativity and love for food. Whether visiting for a relaxed lunch with loved ones or a business meeting, our restaurant on Bulevar kralja Aleksandra offers an atmosphere where you'll want to linger longer.",
+        button: "View More",
       },
       features: {
         title: "Why Choose Us",
         feature1: {
           title: "Traditional Recipes",
-          text: "Authentic dishes prepared with love and centuries-old techniques",
+          text: "Authentic dishes made with love and centuries-old techniques",
         },
         feature2: {
           title: "Fresh Ingredients",
-          text: "We source the finest local and seasonal produce",
+          text: "We source the highest quality local and seasonal products",
         },
         feature3: {
           title: "Cozy Atmosphere",
@@ -36,40 +37,40 @@ export const translations = {
       },
       cta: {
         title: "Join Us Today",
-        text: "Reserve your table and experience the magic of traditional Serbian cuisine",
+        text: "Reserve your table and enjoy the magic of traditional Serbian cuisine",
         button: "Book a Table",
       },
     },
     restaurant: {
       hero: {
-        title: "Our Story",
-        subtitle: "A Legacy of Flavor",
+        title: "Restaurant Zlatna Cvekla",
+        subtitle: "Buffet that combines tradition and enjoyment",
       },
       story: {
         title: "About Zlatna Cvekla",
         text1:
-          'Founded with a passion for preserving Serbian culinary traditions, Zlatna Cvekla has been serving authentic home-cooked meals since its inception. Our name, meaning "Golden Beet," reflects our commitment to celebrating the humble yet noble ingredients that form the foundation of Serbian cuisine.',
+          "Zlatna Cvekla is dedicated to homegrown flavors and the simple joy of good food. Our buffet-style concept allows everyone to create their perfect plate — from traditional Serbian dishes to modern specialties made with fresh, local ingredients.",
         text2:
-          "Every dish we serve tells a story—of family gatherings, harvest celebrations, and the simple joy of sharing a meal with loved ones. Our chefs bring years of experience and a deep respect for traditional cooking methods, ensuring that each plate that leaves our kitchen is a testament to our heritage.",
+          "Located on Bulevar kralja Aleksandra, our space blends the warmth of a home table with the elegance of a modern restaurant. Zlatna Cvekla is a place to eat well, feel great, and always want to return.",
       },
       values: {
         title: "Our Values",
         value1: {
-          title: "Authenticity",
-          text: "We stay true to traditional recipes and cooking methods",
+          title: "Homegrown Flavors",
+          text: "Carefully prepared food based on recipes we all love — simple, honest, and delicious.",
         },
         value2: {
-          title: "Quality",
-          text: "Only the finest ingredients make it to your plate",
+          title: "Pleasant Atmosphere",
+          text: "Relaxed space where you can eat slowly, talk long, and enjoy without hurry.",
         },
         value3: {
-          title: "Community",
-          text: "Creating a space where everyone feels like family",
+          title: "Modern Spirit",
+          text: "A blend of traditional dishes and a modern approach — exactly how Belgrade likes to dine.",
         },
       },
       team: {
-        title: "Meet Our Team",
-        text: "Our dedicated team of chefs and staff work tirelessly to ensure your dining experience is exceptional. With decades of combined experience, we bring passion and expertise to every service.",
+        title: "Breakfast & Lunch Buffet",
+        text: "Start your day with the smell of fresh pastries, homemade dishes, and fresh coffee. For lunch, enjoy a wide selection of specialties — from traditional flavors to light seasonal meals. Zlatna Cvekla offers a buffet that suits every time of day.",
       },
     },
     menu: {
@@ -101,12 +102,11 @@ export const translations = {
         title: "Main Courses",
         item1: {
           name: "Sarma",
-          description: "Cabbage rolls stuffed with seasoned meat and rice",
+          description: "Cabbage rolls filled with meat and rice",
         },
         item2: {
           name: "Ćevapi",
-          description:
-            "Grilled minced meat sausages served with flatbread and onions",
+          description: "Grilled sausages served with flatbread and onions",
         },
         item3: {
           name: "Karađorđeva Šnicla",
@@ -118,11 +118,11 @@ export const translations = {
         },
         item5: {
           name: "Pljeskavica",
-          description: "Serbian burger patty with house spices",
+          description: "Serbian grill patty with house spices",
         },
         item6: {
-          name: "Roštilj Platter",
-          description: "Mixed grill plate with various meats",
+          name: "Grill Platter",
+          description: "Mixed grilled meats",
         },
       },
       desserts: {
@@ -150,9 +150,9 @@ export const translations = {
         },
         item3: {
           name: "Turkish Coffee",
-          description: "Strong, traditional coffee",
+          description: "Strong traditional coffee",
         },
-        item4: { name: "Kompot", description: "Fruit compote drink" },
+        item4: { name: "Kompot", description: "Fruit compote" },
       },
     },
     events: {
@@ -162,29 +162,29 @@ export const translations = {
       },
       intro: {
         title: "Host Your Event With Us",
-        text: "Zlatna Cvekla offers the perfect venue for your special occasions. Whether it's a birthday celebration, wedding reception, corporate event, or family gathering, our dedicated team will ensure everything is perfect.",
+        text: "At Zlatna Cvekla, we believe every event should have a soul. We've created a space where good energy, carefully prepared food, and a pleasant atmosphere combine for a memorable experience. Whether celebrating a birthday, wedding, anniversary, or corporate event, our team ensures everything runs smoothly with a smile and that familiar warmth of a home table. Here, you don’t just celebrate — you enjoy.",
       },
       upcoming: {
-        title: "Upcoming Events",
+        title: "Your Moments at Zlatna Cvekla",
         event1: {
-          title: "Live Folk Music Night",
-          date: "Every Friday",
-          description: "Enjoy traditional Serbian folk music while dining",
+          title: "Corporate Events",
+          description:
+            "Perfect for business lunches, team celebrations, and corporate gatherings. Relax with good food and professional service in a pleasant environment.",
         },
         event2: {
-          title: "Sunday Family Feast",
-          date: "Every Sunday",
-          description: "Special family-style menu with traditional roasts",
+          title: "Weddings",
+          description:
+            "Romantic ambiance, carefully selected menu, and an atmosphere full of warmth. Zlatna Cvekla is the ideal place for your special day.",
         },
         event3: {
-          title: "Wine Tasting Evening",
-          date: "First Saturday of Month",
-          description: "Discover Serbian wines paired with our dishes",
+          title: "Special Occasions",
+          description:
+            "Birthdays, anniversaries, christenings, and other celebrations — every moment has its taste and rhythm. We handle the details, you just enjoy.",
         },
       },
       private: {
         title: "Private Events",
-        text: "We can accommodate groups from 20 to 100 guests. Our event coordinator will work with you to create a customized menu and ensure your celebration is unforgettable.",
+        text: "Zlatna Cvekla offers an ideal space for events of all sizes — from intimate gatherings to large events with hundreds of guests. With a capacity of 50 to 400 people, we adjust the setup and atmosphere to your occasion. Our team takes care of every detail: from table arrangements and decorations to the menu and service. Everything is designed so you can enjoy the day worry-free, while guests leave with wonderful memories.",
         button: "Inquire About Private Events",
       },
     },
@@ -212,17 +212,11 @@ export const translations = {
         },
         hours: {
           title: "Opening Hours",
-          weekdays: "Mon-Thu: 11:00 AM - 11:00 PM",
-          weekend: "Fri-Sun: 11:00 AM - 12:00 AM",
+          weekdays: "Mon-Thu: 11:00 - 23:00",
+          weekend: "Fri-Sun: 11:00 - 00:00",
         },
-        phone: {
-          title: "Phone",
-          text: "+381 11 123 4567",
-        },
-        email: {
-          title: "Email",
-          text: "info@zlatnacvekla.rs",
-        },
+        phone: { title: "Phone", text: "+381 11 123 4567" },
+        email: { title: "Email", text: "info@zlatnacvekla.rs" },
       },
       form: {
         title: "Send Us a Message",
@@ -234,7 +228,7 @@ export const translations = {
       },
       reservation: {
         title: "Make a Reservation",
-        text: "Call us or use our online booking system to reserve your table",
+        text: "Call us or use our online reservation system",
         button: "Book Now",
       },
     },
@@ -255,7 +249,8 @@ export const translations = {
       },
       welcome: {
         title: "Dobrodošli u Zlatnu Cveklu",
-        text: "Doživite autentične ukuse srpske kuhinje u toploj, prijatnoj atmosferi. Naš restoran kombinuje tradicionalne recepte koji se prenose kroz generacije sa svežim, lokalno nabavljenim sastojcima kako bi stvorili nezaboravna gastronomska iskustva.",
+        text: "Doživite savršen spoj tradicije i savremenog ukusa u srcu Beograda. Zlatna Cvekla donosi duh srpske kuhinje u modernom, elegantnom ambijentu — mesto gde se recepti naših baka susreću sa savremenim kulinarskim pristupom. Svako jelo pripremamo od pažljivo biranih, lokalnih sastojaka, uz dozu kreativnosti i ljubavi prema hrani. Bilo da dolazite na opušten ručak sa dragim ljudima ili poslovni susret, naš restoran na Bulevaru kralja Aleksandra pruža atmosferu u kojoj ćete želeti da se zadržite duže.",
+        button: "Vidi još",
       },
       features: {
         title: "Zašto Odabrati Nas",
@@ -280,34 +275,34 @@ export const translations = {
     },
     restaurant: {
       hero: {
-        title: "Naša Priča",
-        subtitle: "Nasleđe Ukusa",
+        title: "Restoran Zlatna Cvekla",
+        subtitle: "Švedski sto koji spaja tradiciju i uživanje",
       },
       story: {
         title: "O Zlatnoj Cvekli",
         text1:
-          "Osnovana sa strašću za očuvanjem srpskih kulinarskih tradicija, Zlatna Cvekla od svog osnivanja služi autentična domaća jela. Naše ime odražava našu posvećenost slavljenju skromnih ali plemenitih sastojaka koji čine osnovu srpske kuhinje.",
+          "Zlatna Cvekla je restoran posvećen domaćim ukusima i jednostavnom uživanju u hrani. Naš koncept švedskog stola pruža slobodu da svako pronađe svoj savršen tanjir — od tradicionalnih srpskih jela do modernih specijaliteta pripremljenih od svežih, lokalnih sastojaka.",
         text2:
-          "Svako jelo koje serviramo priča priču—o porodičnim okupljanjima, žetvi i jednostavnoj radosti deljenja obroka sa voljenima. Naši kuvari donose godine iskustva i duboko poštovanje tradicionalnih metoda kuvanja, osiguravajući da svaki tanjir koji napušta našu kuhinju bude svedočanstvo našeg nasleđa.",
+          "Nalazimo se na Bulevaru kralja Aleksandra, u prostoru koji spaja toplinu domaće trpeze i eleganciju savremenog restorana. Zlatna Cvekla je mesto gde se dobro jede, lepo oseća i uvek rado vraća.",
       },
       values: {
         title: "Naše Vrednosti",
         value1: {
-          title: "Autentičnost",
-          text: "Ostajemo verni tradicionalnim receptima i metodama pripreme",
+          title: "Domaći Ukusi",
+          text: "Hrana pripremljena s pažnjom, po receptima koje svi volimo — jednostavno, iskreno i ukusno.",
         },
         value2: {
-          title: "Kvalitet",
-          text: "Samo najfiniji sastojci stižu do vašeg tanjira",
+          title: "Prijatna Atmosfera",
+          text: "Opušten prostor u kojem se jede polako, priča dugo i uživa bez žurbe.",
         },
         value3: {
-          title: "Zajednica",
-          text: "Stvaranje prostora gde se svi osećaju kao porodica",
+          title: "Savremen Duh",
+          text: "Spoj tradicionalnih jela i modernog pristupa — baš onako kako Beograd voli da jede.",
         },
       },
       team: {
-        title: "Upoznajte Naš Tim",
-        text: "Naš posvećen tim kuvara i osoblja neumorno radi kako bi vaše iskustvo bilo izuzetno. Sa decenijama kombinovanog iskustva, donosimo strast i stručnost u svaku uslugu.",
+        title: "Švedski Sto za Doručak i Ručak",
+        text: "Počnite dan uz miris toplog peciva, domaćih jela i sveže kafe. Za ručak vas čeka bogat izbor specijaliteta — od tradicionalnih ukusa do laganih sezonskih obroka. Zlatna Cvekla nudi švedski sto koji prija u svako doba dana.",
       },
     },
     menu: {
@@ -394,31 +389,29 @@ export const translations = {
       },
       intro: {
         title: "Organizujte Svoj Događaj Kod Nas",
-        text: "Zlatna Cvekla nudi savršen prostor za vaše posebne prilike. Bilo da je u pitanju rođendanska proslava, svadbena gozba, korporativni događaj ili porodično okupljanje, naš posvećen tim će osigurati da sve bude savršeno.",
+        text: "U Zlatnoj Cvekli verujemo da svaki događaj treba da ima dušu. Zato smo stvorili prostor u kojem se dobra energija, pažljivo pripremljena hrana i prijatna atmosfera stapaju u doživljaj koji se pamti. Bilo da slavite rođendan, venčanje, godišnjicu ili organizujete korporativnu proslavu, naš tim će se pobrinuti da sve protekne glatko, uz osmeh i onu poznatu toplinu domaće trpeze. Kod nas se ne proslavlja — kod nas se uživa.",
       },
       upcoming: {
-        title: "Predstojeći Događaji",
+        title: "Vaši Trenuci u Zlatnoj Cvekli",
         event1: {
-          title: "Veče Narodne Muzike Uživo",
-          date: "Svakog Petka",
+          title: "Korporativni Događaji",
           description:
-            "Uživajte u tradicionalnoj srpskoj narodnoj muzici uz večeru",
+            "Savršen izbor za poslovne ručkove, timske proslave i korporativna okupljanja. Opustite se uz dobru hranu i profesionalnu uslugu u prijatnom ambijentu.",
         },
         event2: {
-          title: "Nedeljni Porodični Ručak",
-          date: "Svake Nedelje",
+          title: "Venčanja",
           description:
-            "Specijalni meni u porodičnom stilu sa tradicionalnim pečenjima",
+            "Romantičan ambijent, pažljivo odabran meni i atmosfera koja odiše toplinom. Zlatna Cvekla je idealno mesto za vaš poseban dan.",
         },
         event3: {
-          title: "Veče Degustacije Vina",
-          date: "Prve Subote u Mesecu",
-          description: "Otkrijte srpska vina u kombinaciji sa našim jelima",
+          title: "Posebne Prilike",
+          description:
+            "Rođendani, godišnjice, krštenja i sva druga slavlja — kod nas svaki trenutak ima svoj ukus i ritam. Mi se brinemo o detaljima, vi samo uživajte.",
         },
       },
       private: {
         title: "Privatni Događaji",
-        text: "Možemo primiti grupe od 20 do 100 gostiju. Naš koordinator događaja će raditi sa vama kako bi kreirao prilagođeni meni i osigurao da vaša proslava bude nezaboravna.",
+        text: "Zlatna Cvekla nudi prostor idealan za proslave svih formata — od intimnih okupljanja do velikih događaja sa više stotina gostiju. Sa kapacitetom od 50 do 400 ljudi, prilagođavamo postavku i atmosferu vašem povodu. Naš tim brine o svakom detalju: od rasporeda stolova i dekoracije, do menija i servisa. Sve je osmišljeno tako da vi bez brige uživate u danu, a gosti ponesu najlepše uspomene.",
         button: "Raspitajte Se o Privatnim Događajima",
       },
     },

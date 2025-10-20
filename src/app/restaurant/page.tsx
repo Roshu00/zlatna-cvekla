@@ -1,7 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/contexts/language-context";
-import { Award, Users, Leaf } from "lucide-react";
+import { Heart, Leaf, Soup } from "lucide-react";
 
 const RestaurantPage = () => {
   const { t } = useLanguage();
@@ -30,7 +30,7 @@ const RestaurantPage = () => {
           <h2 className="text-gold mb-8 text-center">
             {t.restaurant.story.title}
           </h2>
-          <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
+          <div className="space-y-6 text-lg text-foreground/80 leading-relaxed text-center">
             <p>{t.restaurant.story.text1}</p>
             <p>{t.restaurant.story.text2}</p>
           </div>
@@ -43,11 +43,11 @@ const RestaurantPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative h-80 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food-11.jpg')] bg-cover bg-center" />
             </div>
             <div className="relative h-80 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&h=600&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food-12.jpg')] bg-cover bg-center" />
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const RestaurantPage = () => {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gold/20 flex items-center justify-center">
-                <Award className="w-10 h-10 text-gold" />
+                <Soup className="w-10 h-10 text-gold" />
               </div>
               <h3 className="mb-4">{t.restaurant.values.value1.title}</h3>
               <p className="text-foreground/70 text-lg">
@@ -80,7 +80,7 @@ const RestaurantPage = () => {
             </div>
             <div className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gold/20 flex items-center justify-center">
-                <Users className="w-10 h-10 text-gold" />
+                <Heart className="w-10 h-10 text-gold" />
               </div>
               <h3 className="mb-4">{t.restaurant.values.value3.title}</h3>
               <p className="text-foreground/70 text-lg">
@@ -101,15 +101,15 @@ const RestaurantPage = () => {
           <div className="grid md:grid-cols-3 gap-6 mt-12">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=400&h=500&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food1.jpg')] bg-cover bg-center" />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=400&h=500&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food2.jpg')] bg-cover bg-center" />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=400&h=500&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food3.jpg')] bg-cover bg-center" />
             </div>
           </div>
         </div>

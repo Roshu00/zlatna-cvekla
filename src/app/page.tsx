@@ -40,7 +40,7 @@ export default function Home() {
               </p>
               <Link href="/restaurant">
                 <Button className="mt-8" size="lg">
-                  {t.nav.restaurant}
+                  {t.home.welcome.button}
                 </Button>
               </Link>
             </div>
