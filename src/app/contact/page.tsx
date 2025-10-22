@@ -18,7 +18,7 @@ const ContactPage = () => {
       {/* Hero Section */}
       <div className="h-[60vh] relative mt-24">
         <div className="absolute inset-0 bg-gradient-to-br from-[#8B4513]/20 to-[#D2691E]/20" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1920&h=600&fit=crop')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-[url('/hero-image.webp')] bg-cover bg-center opacity-40" />
         <div className="absolute inset-0 bg-background/60 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-6xl mb-4 text-gold">{t.contact.hero.title}</h1>
@@ -61,9 +61,6 @@ const ContactPage = () => {
                     <p className="text-foreground/70">
                       {t.contact.info.hours.weekdays}
                     </p>
-                    <p className="text-foreground/70">
-                      {t.contact.info.hours.weekend}
-                    </p>
                   </div>
                 </div>
 
@@ -91,15 +88,6 @@ const ContactPage = () => {
                       {t.contact.info.email.text}
                     </p>
                   </div>
-                </div>
-              </div>
-
-              {/* Map Placeholder */}
-              <div className="mt-8 relative h-64 rounded-lg overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-transparent" />
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&h=400&fit=crop')] bg-cover bg-center" />
-                <div className="absolute inset-0 flex items-center justify-center bg-background/70">
-                  <p className="text-gold font-semibold">Map Placeholder</p>
                 </div>
               </div>
             </div>

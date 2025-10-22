@@ -208,14 +208,13 @@ export const translations = {
         title: "Visit Us",
         address: {
           title: "Address",
-          text: "123 Main Street, Belgrade, Serbia",
+          text: "Bulevar kralja Aleksandra 77",
         },
         hours: {
           title: "Opening Hours",
-          weekdays: "Mon-Thu: 11:00 - 23:00",
-          weekend: "Fri-Sun: 11:00 - 00:00",
+          weekdays: "Mon-Sun: 09:00 - 18:00",
         },
-        phone: { title: "Phone", text: "+381 11 123 4567" },
+        phone: { title: "Phone", text: "+381 65 8227877" },
         email: { title: "Email", text: "info@zlatnacvekla.rs" },
       },
       form: {
@@ -435,16 +434,15 @@ export const translations = {
         title: "Posetite Nas",
         address: {
           title: "Adresa",
-          text: "Glavna Ulica 123, Beograd, Srbija",
+          text: "Bulevar kralja Aleksandra 77",
         },
         hours: {
           title: "Radno Vreme",
-          weekdays: "Pon-Čet: 11:00 - 23:00",
-          weekend: "Pet-Ned: 11:00 - 00:00",
+          weekdays: "Pon-Sub: 09:00 - 18:00",
         },
         phone: {
           title: "Telefon",
-          text: "+381 11 123 4567",
+          text: "+381 65 8227877",
         },
         email: {
           title: "Email",

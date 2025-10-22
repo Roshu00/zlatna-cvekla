@@ -31,11 +31,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
             <Link href="/events">{t.nav.events}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuLink asChild>
-            <Link href="/menu">{t.nav.menu}</Link>
-          </NavigationMenuLink>
-        </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
             <Link href="/gallery">{t.nav.gallery}</Link>

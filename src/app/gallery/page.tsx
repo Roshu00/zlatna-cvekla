@@ -9,27 +9,22 @@ const GalleryPage = () => {
     "all" | "restaurant" | "food" | "events"
   >("all");
 
-  const restaurantImages = [
-    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&h=600&fit=crop",
-  ];
+  const restaurantImages = ["/hero-image.webp", "/rest-1.webp", "/rest-2.webp"];
 
   const foodImages = [
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&h=600&fit=crop",
+    "/food-1.webp",
+    "/food-2.webp",
+    "/food-3.webp",
+    "/food-4.webp",
+    "/food-5.webp",
+    "/food-6.webp",
   ];
 
   const eventImages = [
-    "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&h=600&fit=crop",
+    "/event-1.webp",
+    "/event-2.webp",
+    "/personal-image.webp",
+    "/corporate.webp",
   ];
 
   const getFilteredImages = () => {
@@ -50,7 +45,7 @@ const GalleryPage = () => {
       {/* Hero Section */}
       <div className="h-[60vh] relative mt-24">
         <div className="absolute inset-0 bg-gradient-to-br from-[#8B4513]/20 to-[#D2691E]/20" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=600&fit=crop')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-[url('/hero-image.webp')] bg-cover bg-center opacity-40" />
         <div className="absolute inset-0 bg-background/60 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-6xl mb-4 text-gold">{t.gallery.hero.title}</h1>

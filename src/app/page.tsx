@@ -13,8 +13,8 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <div className="min-h-screen relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#8B4513]/20 to-[#D2691E]/20" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#8B4513]/10 to-[#D2691E]/10" />
+        <div className="absolute inset-0 bg-[url('/hero-image.webp')] bg-cover bg-center opacity-30" />
         <div className="absolute inset-0 bg-background/60">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center h-full text-center">
             <div className="w-64 h-64 md:w-96 md:h-96 relative mb-8">
@@ -44,9 +44,9 @@ export default function Home() {
                 </Button>
               </Link>
             </div>
-            <div className="relative h-96 rounded-lg overflow-hidden">
+            <div className="relative aspect-square rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/welcome-to.webp')] bg-cover bg-center" />
             </div>
           </div>
         </div>

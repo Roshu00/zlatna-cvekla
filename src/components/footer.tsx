@@ -38,14 +38,6 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/menu"
-                  className="text-foreground/70 hover:text-gold transition-colors text-sm"
-                >
-                  {t.nav.menu}
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/events"
                   className="text-foreground/70 hover:text-gold transition-colors text-sm"
                 >
@@ -96,7 +88,6 @@ export function Footer() {
                 <Clock className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
                 <div className="text-foreground/70">
                   <p>{t.contact.info.hours.weekdays}</p>
-                  <p>{t.contact.info.hours.weekend}</p>
                 </div>
               </li>
             </ul>

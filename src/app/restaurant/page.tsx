@@ -11,7 +11,7 @@ const RestaurantPage = () => {
       {/* Hero Section */}
       <div className="h-[60vh] relative mt-24">
         <div className="absolute inset-0 bg-gradient-to-br from-[#8B4513]/20 to-[#D2691E]/20" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&h=600&fit=crop')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-[url('/restaurant-hero.webp')] bg-cover bg-bottom opacity-40" />
         <div className="absolute inset-0 bg-background/60 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-6xl mb-4 text-gold">

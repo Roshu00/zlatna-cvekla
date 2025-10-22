@@ -45,7 +45,7 @@ const EventsPage = () => {
             <div className="bg-background/50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
                 <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-transparent" />
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=600&h=400&fit=crop')] bg-cover bg-center" />
+                <div className="absolute inset-0 bg-[url('/corporate.webp')] bg-cover bg-bottom" />
                 <div className="absolute bottom-4 left-4">
                   <div className="bg-gold/90 text-background p-3 rounded-lg">
                     <Music className="w-8 h-8" />
@@ -67,7 +67,7 @@ const EventsPage = () => {
             <div className="bg-background/50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
                 <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-transparent" />
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop')] bg-cover bg-center" />
+                <div className="absolute inset-0 bg-[url('/wedding.jpg')] bg-cover bg-center" />
                 <div className="absolute bottom-4 left-4">
                   <div className="bg-gold/90 text-background p-3 rounded-lg">
                     <Users className="w-8 h-8" />
@@ -88,7 +88,7 @@ const EventsPage = () => {
             <div className="bg-background/50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
                 <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-transparent" />
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&h=400&fit=crop')] bg-cover bg-center" />
+                <div className="absolute inset-0 bg-[url('/private-event.webp')] bg-cover bg-center" />
                 <div className="absolute bottom-4 left-4">
                   <div className="bg-gold/90 text-background p-3 rounded-lg">
                     <Wine className="w-8 h-8" />
@@ -114,7 +114,7 @@ const EventsPage = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-transparent" />
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/personal-image.webp')] bg-cover bg-center" />
             </div>
             <div>
               <h2 className="text-gold mb-6">{t.events.private.title}</h2>
