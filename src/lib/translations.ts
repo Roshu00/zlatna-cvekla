@@ -13,7 +13,7 @@ export const translations = {
     home: {
       hero: {
         title: "Zlatna Cvekla",
-        subtitle: "Where Tradition Meets Taste",
+        subtitle: "A place where memories are created.",
       },
       welcome: {
         title: "Welcome to Zlatna Cvekla",
@@ -230,6 +230,14 @@ export const translations = {
         text: "Call us or use our online reservation system",
         button: "Book Now",
       },
+      success: {
+        title: "Message Sent Successfully!",
+        subtitle: "Thank you for contacting us",
+        message:
+          "We have received your message and will get back to you as soon as possible. We appreciate your interest in Zlatna Cvekla.",
+        backButton: "Back to Contact",
+        homeButton: "Go to Home",
+      },
     },
   },
   sr: {
@@ -244,7 +252,7 @@ export const translations = {
     home: {
       hero: {
         title: "Zlatna Cvekla",
-        subtitle: "Gde Tradicija Susreće Ukus",
+        subtitle: "Mesto gde se stvaraju uspomene",
       },
       welcome: {
         title: "Dobrodošli u Zlatnu Cveklu",
@@ -461,6 +469,14 @@ export const translations = {
         title: "Napravite Rezervaciju",
         text: "Pozovite nas ili koristite naš sistem online rezervacija",
         button: "Rezervišite Sada",
+      },
+      success: {
+        title: "Poruka je Uspešno Poslata!",
+        subtitle: "Hvala što ste nas kontaktirali",
+        message:
+          "Primili smo vašu poruku i odgovorićemo vam što je pre moguće. Cenimo vaše interesovanje za Zlatnu Cveklu.",
+        backButton: "Nazad na Kontakt",
+        homeButton: "Idi na Početnu",
       },
     },
   },

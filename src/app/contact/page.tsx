@@ -3,6 +3,7 @@
 import { useLanguage } from "@/contexts/language-context";
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock, Phone, Mail } from "lucide-react";
+import { absoluteUrl } from "@/lib/utils";
 
 const ContactPage = () => {
   const { t } = useLanguage();
@@ -96,7 +97,18 @@ const ContactPage = () => {
             <div>
               <h2 className="text-gold mb-8">{t.contact.form.title}</h2>
 
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form
+                action="https://formsubmit.co/info@zlatnacvekla.rs"
+                method="POST"
+                className="space-y-6"
+              >
+                <input
+                  type="hidden"
+                  name="_next"
+                  value={`${absoluteUrl}/contact/contact-success`}
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
                 <div>
                   <label
                     htmlFor="name"
@@ -166,19 +178,6 @@ const ContactPage = () => {
               </form>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Reservation CTA */}
-      <section className="py-20 bg-card/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-gold mb-6">{t.contact.reservation.title}</h2>
-          <p className="text-lg text-foreground/80 mb-8">
-            {t.contact.reservation.text}
-          </p>
-          <Button size="lg" className="text-lg">
-            {t.contact.reservation.button}
-          </Button>
         </div>
       </section>
     </>

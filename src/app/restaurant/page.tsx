@@ -101,15 +101,15 @@ const RestaurantPage = () => {
           <div className="grid md:grid-cols-3 gap-6 mt-12">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-              <div className="absolute inset-0 bg-[url('/food1.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food-1.webp')] bg-cover bg-center" />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-              <div className="absolute inset-0 bg-[url('/food2.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food-2.webp')] bg-cover bg-center" />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-              <div className="absolute inset-0 bg-[url('/food3.jpg')] bg-cover bg-center" />
+              <div className="absolute inset-0 bg-[url('/food-4.webp')] bg-cover bg-center" />
             </div>
           </div>
         </div>
