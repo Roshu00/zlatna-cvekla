@@ -1,9 +1,10 @@
 import { MetadataRoute } from "next";
+import { absoluteUrl } from "@/lib/utils";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://zlatnacvekla.rs"; // Replace with your actual domain
+  const baseUrl = absoluteUrl("/");
 
   return [
     {
