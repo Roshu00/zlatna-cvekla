@@ -1,4 +1,6 @@
 import { MetadataRoute } from "next";
+import { absoluteUrl } from "@/lib/utils";
+export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -7,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/private/", "/admin/"],
     },
-    sitemap: "https://zlatnacvekla.rs/sitemap.xml", // Replace with your actual domain
+    sitemap: `${absoluteUrl}/sitemap.xml`, // Replace with your actual domain
   };
 }
